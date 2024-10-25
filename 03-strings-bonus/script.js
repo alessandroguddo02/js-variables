@@ -11,7 +11,7 @@ console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = city.slice(4.8);
+const citySubstring = city.slice(4,8);
 console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
@@ -61,20 +61,20 @@ console.log(elevationNumber);
 
 // 4. Trasforma tutto in minuscolo
 // Trasforma tutto in minuscolo la stringa della variabile greeting
-const lowerCaseGreeting = "";
+const lowerCaseGreeting = greeting.toLocaleLowerCase();
 console.log(lowerCaseGreeting);
 
 // 5. Ripeti una stringa
 // Ripeti la stringa weather 3 volte con uno spazio tra le ripetizioni e stampa il risultato
-const repeatedWeather = "";
+const repeatedWeather = (weather + ' ').repeat(3);
 console.log(repeatedWeather);
 
 // 6. Estrai una sottostringa usando substr()
 // Estrai 'Bianco' dalla variabile mountain usando substr()
-const mountainSubstr = false;
+const mountainSubstr = mountain.substring(6);
 console.log(mountainSubstr);
 
 // 7. Aggiungi padding a una stringa
 // Aggiungi zeri all'inizio della variabile elevation per renderla lunga 6 caratteri
-const paddedElevation = true;
+const paddedElevation = elevation.padStart(6, "0");
 console.log(paddedElevation);
